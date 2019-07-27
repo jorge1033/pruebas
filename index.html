@@ -1,0 +1,121 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>NominApp</title>
+    <meta name="description" content="Nomina de muebles"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">  
+    <link rel="stylesheet" href="css/estilos_nomina.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container" id="header">
+        <header class="main row">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" id="texto1">
+				<h1><em>Nómina<br> Muebles Daffer´s</em></h1>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8" id="imagencabecera">
+				<img src="imagenes/muebles.jpg" class="img-responsive" alt="Imagen responsive" id="imagen1"/>
+            </div>
+            
+            
+            
+        </header>
+    </div>
+    <div class="container" id="menu1">
+	    <nav id="menu" >  
+		    <ul class="nav nav-pills nav-justified" >      <!-- se puede sustituir pills por tables -->
+		        	<li class="active"><a href="nomina_muebles.html">Inicio</a></li>
+			        <li class="active"><a href="nueva_nomina.html">Nueva Nómina</a></li>
+			        <li class="active"><a href="vista_nomina.html">Historial</a></li>
+                    <li class="active"><a href="#">Empleado</a>
+                    <li class="active"><a href="#">Muebles</a></li>
+		    </ul>
+		</nav>
+    </div>
+    </nav>
+    </div>    
+
+    <div class="container" id="seccion">
+		<section class="main row">
+			<div class="col-xs-12 col-sm-7 col-md-8 col-lg-8"id="seccion3">
+				<div id=seccion1>
+					<h2>Políticas y Reglas</h2>
+					<img src="imagenes/muebles2.jpg" class="img-responsive" alt="Imagen responsive" id="imagen2"/><br>
+					<article >
+						<p>A la hora de decidir adoptar un perro, necesitará pensar en el trabajo que implica esa decisión. No solo tendrá que darle de comer y beber, requiere atención, tiempo y educación. Ello supone una gran responsabilidad y cierta información. Inauguramos una sección para apoyar y dar consejos sobre educación y cuidados de perros.<a href="https://www.euroresidentes.com/mascotas/perros/educacion-cuidados-para-su-perro.htm" id="ver"> Ver más...</a></p>
+					</article>
+				</div><br>
+            </div>
+
+            <aside class="col-xs-12 col-sm-5 col-md-4 col-lg-4" id="barralateral">
+				<form action=""class="">
+                    <h2 class="text-primary text-center" id="texto2">Registro Empleado</h2>
+                    <div class="form-group">
+                        <label for="nombre1">Primer Nombre:</label>
+                        <input type="text" class="form-control" id="nombre1" placeholder="Primer nombre del empleado">
+                    </div>
+                    <div class="form-group">
+                        <label for="nombre2">Segundo Nombre:</label>
+                        <input type="text" class="form-control" id="nombre2" placeholder="Segundo nombre del empleado">
+                    </div>
+                    <div class="form-group">
+                        <label for="apellido1">Primer Apellido:</label>
+                        <input type="text" class="form-control" id="apellido1" placeholder="Primer apellido del empleado">
+                    </div>
+                    <div class="form-group">
+                        <label for="apellido2">Segundo Apellido:</label>
+                        <input type="text" class="form-control" id="apellido2" placeholder="Segundo apellido del empleado">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="edad">Edad:</label>
+                        <input type="number" class="form-control" id="edad" placeholder="Edad del empleado">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cedula">Cédula:</label>
+                        <input type="text" class="form-control" id="cedula" placeholder="cédula del empleado">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telefono">Teléfono:</label>
+                        <input type="text" class="form-control" id="telefono" placeholder="teléfono del empleado">
+                    </div>
+
+                    <form action="" class="">
+                        <div class="form-group"></div>
+                            <tr>
+                                <td><p>oficio:</p></td>
+                                <td><p>
+                                    <label for="oficio"></label>
+                                    <select name="oficio" id="oficio">
+                                        <option>Lijador</option>
+                                        <option>Empastador</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        <br><br>
+                        <button class="btn btn-primary" id="guardar">Guardar</button></div>
+                    </form>
+                </form>
+            </aside> 
+        </div>
+    </section>
+    </div><br><br>
+    <footer id="pieprincipal">
+        <div class="text-center">
+            <small>Contactenos</small> <br/><address> Linea gratuita 01800-00001 <br> <small>Correo: preguntas@caninosyfelinos.com</small></address>
+        </div>
+    </footer>
+
+
+<script src="js/jquery.js"></script>    
+<!-- <script src="bootstrap.min.js"></script> -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
